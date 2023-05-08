@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.menu-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  background-color: gray;
+  color: #ffffff;
+}
+.menu-link:is(:hover, :focus) {
+  color: #ff6c00;
+}
+.tel {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  background-color: gray;
+  color: #ffffff;
+}
+.tel:is(:hover, :focus) {
+    color: #ff6c00;
+  }
